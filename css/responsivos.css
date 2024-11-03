@@ -1,0 +1,47 @@
+@media (max-width:1024px){
+    .principal .texto{
+        margin: 0;
+        margin-left: 60px;
+        padding: 0;
+    }
+}
+
+@media (max-width:970px){
+    .principal .foto-principal{
+        display: block;
+        text-align: center;
+    }
+
+    .principal .texto{
+        text-align: center;
+        margin-left: 0;
+        padding: 150px;
+    }
+
+    .principal .midias-sociais{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media ( max-width: 594px){
+    .principal .texto{
+        padding: 0 0 120px 0;
+        margin: 20px;
+    }
+
+    .principal .texto p,
+    .principal .texto h2,
+    .principal .texto button{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    body{
+        background-image: none;
+        background: url(../img/bg-mobile.svg) no-repeat;
+        background-size: cover;
+        background-color: var(--cor-primaria);
+    }
+}
