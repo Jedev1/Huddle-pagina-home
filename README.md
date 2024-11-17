@@ -1,4 +1,4 @@
-<h1 align="center">Portifólio - João 👾</h1>
+<h1 align="center">Huddle home - João 👾</h1>
 
 ![Imagem do projeto finalizado](projeto-home.png)
 
